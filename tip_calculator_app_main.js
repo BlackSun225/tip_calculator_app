@@ -5,7 +5,7 @@ var tipAmount;
 var total;
 
 function setTip(a) {
-  tip = parseInt(a) / 100;
+  tip = Number(a) / 100;
 
 }
 function setTipAmount() {
